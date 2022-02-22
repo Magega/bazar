@@ -2,13 +2,13 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    min-width: 1920px;
+    min-width: 100%;
 
 }
 .header{
     display: flex;
     justify-content: center;
-    width: 1920px;
+    width: 100%;
     background-color: #434343;
 }
 .headerMain {
@@ -54,7 +54,7 @@ body{
 .headerS{
     display: flex;
     justify-content: center;
-    width: 1920px;
+    width: 100%;
     background-color: #363636;
 
 
@@ -91,12 +91,21 @@ body{
     font-size: 17px;
     font-weight: 600;
 }
-.navbarMenu {
-    width: 1920px;
-    height: 85px;
-    padding: 1px 391px 0 389px;
+.nav{
+    display: flex;
+    justify-content: center;
     box-shadow: 0px 4px 6px 0 rgba(1, 2, 2, 0.2);
     background-color: #fff;
+    height: 85px;
+    width: 100%;
+
+
+
+
+}
+.navbarMenu {
+    width: 1140px;
+    height: 85px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,10 +116,12 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 0px;
+    align-items: center;
 
 }
 .navbarMainComponents li{
     list-style: none;
+    display: flex;
 
 }
 .navbarMainComponents li a{
@@ -118,7 +129,7 @@ body{
     color:#2a2a2a;
     font-size: 14px;
     font-weight: 600;
-    padding: 33px 17px;
+    padding: 32px 17px;
 
 }
 .navbarMainComponents li a:hover {
@@ -176,13 +187,12 @@ body{
 }
 
 .topContainer{
-    width: 1920px;
+    width: 100%;
     height: 505px;
     display: flex;
     justify-content: center;
     position: absolute;
     z-index: 0;
-    margin-top: 85px;
 
 }
 .hotDeal{
@@ -222,6 +232,11 @@ body{
     color: white;
     font-weight: 700;
 
+}
+.color{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .indoorFurnitureComponentsText h2{
     color: white;
@@ -371,11 +386,15 @@ body{
     content: ' \2605';
     color:black;
 } */
+.middle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .middleAbout{
     display: flex;
     justify-content: space-between;
     width: 1140px;
-    margin-left: 390px;
     margin-top: 670px;
     padding-bottom: 30px;
 }
@@ -481,7 +500,6 @@ body{
     width: 1140px;
     display: flex;
     justify-content: space-between;
-    margin-left: 390px;
 }
 .colorBlankSofa{
     width: 555px;
@@ -589,11 +607,15 @@ font-weight: 700;
     display: flex;
     justify-content: space-between;
     width: 1140px;
-    margin-left: 390px;
     padding-top: 51px;
     position: relative;
     top: 17px;
 
+}
+.newFurnitureS{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .newFurnitureNavFirst{
     width: 650px;
@@ -631,18 +653,23 @@ font-weight: 700;
 .newFurnitureNavFirstText span{
     margin-right: 8px;
     box-shadow: inset 0px -3px 0px 0px #d58e32;
+    padding-bottom: 1px;
 }
 .newFurnitureNavFirstNavItems li a:hover{
     box-shadow: inset 0px -3px 0px 0px #d58e32;
 }
 .newFurnitureItem{
     display: flex;
-    margin-left: 390px;
     width: 1140px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     
+}
+.newFurnitureItemS{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .newFurnitureItemFirst{
     width: 1050px;
@@ -1451,7 +1478,7 @@ display: inline-block;
 }
 .footerblack{
     background-color: #2a2a2a;
-    width: 1920px;
+    width: 100%;
     height: 95px;
     display: flex;
     justify-content: center;
@@ -1504,8 +1531,6 @@ display: inline-block;
 	align-items: center;
 	width: 565px;
     height: 70px;
-
-
 }
 .sliderNon .slick-arrow.slick-prev{
 	left: 0;
@@ -1628,7 +1653,7 @@ display: inline-block;
     justify-content: center;
 }
 .beedroomFurnitureProcent{
-    width: 1140px;
+    width: 100%;
     height: 282px;
     padding: 124px;
     background-color: #363636;
@@ -1793,7 +1818,7 @@ display: inline-block;
     margin-top: 30px;
 }
 .news{
-    width: 1920px;
+    width: 100%;
     height: 119px;
     background-color: #f2f2f2;
     display: flex;
@@ -2279,4 +2304,464 @@ font-weight: 500;
     margin-top: 60px;
     display: flex;
     justify-content: center;
+}
+.grayTable{
+    width: 100%;
+    height: 94px;
+    opacity: 0.5;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+.grayTableItems{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+.grayTableItems p{
+    color: #dedede;
+    font-size: 24px;
+    font-weight: 600;
+}
+.grayTableItemsNav{
+    
+    width: 193px;
+    display: flex;
+    justify-content: space-between;
+}
+.grayTableItemsNav p{
+    color: #dedede;
+    font-size: 13px;
+    letter-spacing: normal;
+
+    font-weight: 400;
+}
+.grayTableItemsNav p a{
+   text-decoration: none;
+   color: #dedede;
+
+}
+.sun{
+    width: 100%;
+    height: 250px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 480px;
+}
+.suns{
+    border: solid 1px #c2c2c2;
+  background-color: #fff;
+  width: 1140px;
+  height: 670px;
+  display: flex;
+  justify-content: space-between;
+}
+.sunsPhotoItem{
+    width: 436px;
+    height: 493px;
+    background-color: #f4f5f7;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.sunsPhoto{
+    width: 480px;
+
+}
+
+/* .............................................. */
+.wrapperNonSun{
+	height: 100%;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	width: 570px;
+    height: 70px;
+    margin-top: 34px;
+    position: relative;
+    right: 35px;
+}
+.sliderNonSun .slick-arrow.slick-prev{
+	left: 0;
+	background: url('../img/black-arrow.png') 0 0 / 20% no-repeat;
+	padding: 16px 16px;
+    border: solid 1px #c2c2c2;
+    background-position: center;
+    
+    top: 90px;
+    left: 40px;
+}
+.sliderNonSun .slick-arrow.slick-next{
+	right: 0;
+	background: url('../img/white_arrow.png') 0 0 / 20% no-repeat;
+	padding: 16px 16px;
+    background-color: #d58e32;
+    background-position: center;
+    border: solid 1px #d58e32;
+    opacity: 1;
+    top: 90px;
+    right: 38px;
+}
+
+.sliderNonSun .slick-arrow{
+	position: absolute;
+	top: 50%;
+	margin: -46px 0px 0px 0px;
+	z-index: 10;
+	font-size: 0;
+	width: 6px;
+  	height: 11px;
+  
+	
+}
+.sliderNonSun {
+	position: relative;
+	padding: 0px 50px;
+    margin-left: 60px;
+}
+
+.slider__itemNonSun {
+	padding: 0px 15px;
+	
+	display: flex;
+	align-items: center;
+	padding: 20px 23px 26px 22px;
+  margin: 9px;
+  position: relative;
+  width: 90px;
+  height: 104px;
+  background-color: #f4f5f7;
+}
+.sunsPhotoItemImg{
+    border: solid 1px #2a2a2a;
+    background-color: #f4f5f7;
+    width: 38px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+
+}
+.sunsTextNameBtns a{
+    width: 35px;
+  height: 35px;
+  border: solid 1px #2a2a2a;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sunsTextNameBtns{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.sunsTextNameBtns .orangeArrowRight{
+    width: 35px;
+  height: 35px;
+  background-color: #d58e32;
+  border: solid 1px #d58e32;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sunsTextName{
+    margin-top: 20px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+.sunsTextName p{
+    font-size: 22.5px;
+  font-weight: 600;
+position: relative;
+top: 8px;
+  color: #2a2a2a;
+  margin-right: 253px;
+
+}
+.sunsTextNameStars{
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sunsTextNameStars p{
+    color: #676767;
+    font-size: 12px;
+
+}
+.sunsTextNameStars p span{
+    font-size: 24px;
+    color: black;
+    letter-spacing: 0.2px;
+    position: relative;
+    bottom: 2px;
+
+
+}
+.sunsTextNameStarsDiv{
+    width: 1px;
+  height: 14px;
+  background-color: #ccc;
+  position: relative;
+  bottom: 8px;
+}
+.sunsTextDiv{
+    width: 623px;
+  height: 1px;
+  background-color: #ccc;
+}
+.sunsTextPrice{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.sunsTextPrice p{
+    color: #939393;
+    font-size: 20px;
+    font-weight: 300;
+}
+.sunsTextPrice p span{
+    color: #fff;
+    font-size: 22.5px;
+    font-weight: 600;
+    background-color: black;
+    padding: 3px;
+}
+.sunsTextBtns a{
+    width: 38px;
+    height: 37px;  
+    border: solid 1px #2a2a2a;
+    padding: 7px 9px;
+}
+.sunsTextBtns{
+    width: 330px;
+    margin-top: 25px;
+}
+.sunsTextBtns  span a{
+    width: 38px;
+    height: 37px;  
+    background-color: #d58e32;
+    padding: 7px 9px;
+    color: #fff;
+    border: solid 1px #d58e32;
+    text-decoration: none;
+    
+
+
+}
+.sunsTextBtnsTwo{
+    margin-top: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2a2a2a;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.sunsTextBtnsTwo a{
+    border: solid 1px #2a2a2a;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #2a2a2a;
+     text-decoration: none;
+     font-weight: 600;
+     margin-right: 4px;
+}
+.sunsTextBtnsTwo span a{
+    width: 73px;
+    height: 40px;
+}
+.sunsTextBtnsTwo p{
+    position: relative;
+    top: 7px;
+    margin-right: 25px;
+}
+.sunsTextBtnsTwo a:hover{
+    border: solid 1px #d58e32;
+    color: #d58e32;
+
+}
+.sunsTextQuick{
+    color: #2a2a2a;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.sunsTextNam{
+    width: 567px;
+    color: #676767;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.sunsTextCategory p{
+    color: #676767;
+    font-size: 13px;
+    margin-top: 17px;
+
+}
+.sunsTextCategory p span{
+    color: #2a2a2a;
+    font-size: 14px;
+    font-weight: 500;
+}
+.sunsTextSoc a{
+    padding: 12px 11px 11px 13px;
+    border: solid 1px #2a2a2a;
+    text-decoration: none;
+    color: #888;
+    font-size: 13px;
+   
+
+}
+.sunsTextSoc span a{
+    padding: 12px 11px 11px 13px;
+    
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    background-color: #3b5998;
+
+
+}
+.sunsTextSoc{
+    margin-top: 47px;
+}
+.sunsTextSoc a img{
+   margin-right: 7px;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+}
+.descriptionItem{
+    width: 1140px;
+    height: 550px;
+    border: solid 1px #c2c2c2;
+    background-color: #fff;
+}
+.descriptionItemBtns a{
+    color: #2a2a2a;
+    border: solid 1px #c2c2c2;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin-right: -5px;
+    margin-left: -1px;  
+}
+.descriptionItemBtns{
+    margin-top: 12px;
+
+}
+.descriptionItemBtns a:hover{
+    color: #d58e32;
+    border-bottom: solid white;
+}
+.descriptionItemProd{
+    margin-top: 52px;
+    color: #676767;
+    font-size: 14px;
+    margin-left: 37px;
+
+}
+.descriptionItemAdd{
+    color: #454545;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 34px;
+    margin-left: 37px;
+
+}
+.descriptionItemRat{
+    color: #676767;
+    font-size: 14px;
+    margin-top: 34px;
+    margin-left: 37px;
+
+
+}
+.descriptionItemStar{
+    margin-left: 37px;
+    color: #676767;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 21px;
+
+}
+.descriptionItemYour{
+    margin-left: 37px;
+    margin-top: 30px;
+    color: #676767;
+    font-size: 14px;
+
+}
+.descriptionItemYour input{
+    width: 1060px;
+    height: 99px;
+    margin-bottom: 17px;
+}
+.descriptionItemDub input{
+    width: 445px;
+  height: 51px;
+    margin-right: 19px;
+    color: #676767;
+    padding-left: 10px;
+
+}
+.descriptionItemDub a{
+    color: #fff;
+    font-size: 14px;
+  font-weight: 600;
+  background-color: #2a2a2a;
+    text-decoration: none;
+    padding: 15px 30px;
+}
+.descriptionItemDub{
+    margin-left: 37px;
+    margin-bottom: 20px
+
+}
+.newFurnitureNavFirstTextS{
+    color: #2a2a2a;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    bottom: 13px;
+}
+.newFurnitureItemSecondCircleK{
+    background-color: #2a2a2a;
+    clip-path: circle(50%);
+    height: 13px;
+    width: 13px;
+    margin-left: 13px;
+}
+.newFurnitureNavFirstTextS span{
+    margin-right: 8px;
+    box-shadow: inset 0px -3px 0px 0px #2a2a2a;
+    padding-bottom: 5px;
 }

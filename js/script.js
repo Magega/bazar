@@ -46,6 +46,31 @@ $(document).ready(function(){
 		]
 	});
 });
+$(document).ready(function(){
+	$('.sliderNonSun').slick({
+		arrows:true,
+		dots:false,
+		slidesToShow:4,
+		autoplay:true,
+		speed:1000,
+		autoplaySpeed:800,
+		responsive:[
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow:2
+				}
+			},
+			{
+				breakpoint: 550,
+				settings: {
+					slidesToShow:1
+				}
+			}
+		]
+	});
+});
+
 ///////////////////////////////////////////////////////////
 
 window.onload = function(){
@@ -80,3 +105,4 @@ function fillColor(){
     percent2 = (sliderTwo.value / sliderMaxValue) * 100;
     sliderTrack.style.background = `linear-gradient(to right, #d4d4d4 ${percent1}% , #2a2a2a ${percent1}% , #2a2a2a ${percent2}%, #dadae5 ${percent2}%)`;
 }
+// 333333333333333333333333333333333333333333333333333
